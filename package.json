@@ -1,0 +1,17 @@
+{
+  "name": "@lucascalazans/upward-seo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lucascalazans/upward-seo.git",
+  "author": "Lucas Calazans <calazans95@hotmail.com>",
+  "license": "MIT",
+  "files": [
+    "upward/*",
+    "upward/**/*"
+  ],
+  "pwa-studio": {
+    "targets": {
+      "intercept": "./intercept.js"
+    }
+  }
+}
