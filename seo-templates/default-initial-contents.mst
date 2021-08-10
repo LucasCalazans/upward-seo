@@ -1,0 +1,4 @@
+<div id="root">
+{{> seo-templates/js-unavailable }}
+{{> seo-templates/loading-this-entity }}
+</div>

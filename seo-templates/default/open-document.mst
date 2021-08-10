@@ -36,5 +36,5 @@
     {{#assets.bundles.prefetch}}
     <link rel="prefetch script" href="{{.}}">
     {{/assets.bundles.prefetch}}
-    {{> templates/default-font-include}}
-    {{> templates/critical-style}}
+    {{> seo-templates/default-font-include}}
+    {{> seo-templates/critical-style}}

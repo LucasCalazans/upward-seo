@@ -1,4 +1,4 @@
-{{> custom-templates/default/open-document}}
+{{> seo-templates/default/open-document}}
     <meta name="robots" content="INDEX,FOLLOW"/>
 
     {{#cmsPage}}
@@ -12,10 +12,10 @@
 
     {{/cmsPage}}
 
-{{> templates/open-body}}
+{{> seo-templates/open-body}}
 
-    {{> templates/default-initial-contents }}
-    {{> templates/seed-bundles}}
+    {{> seo-templates/default-initial-contents }}
+    {{> seo-templates/seed-bundles}}
 
-{{> templates/close-document}}
+{{> seo-templates/close-document}}
 

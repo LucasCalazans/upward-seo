@@ -1,4 +1,4 @@
-{{> custom-templates/default/open-document}}
+{{> seo-templates/default/open-document}}
     <meta property="og:type" content="product" />
     <meta name="robots" content="INDEX,FOLLOW"/>
 
@@ -14,9 +14,9 @@
 
     {{/product}}
 
-{{> templates/open-body}}
+{{> seo-templates/open-body}}
 
-    {{> templates/default-initial-contents }}
-    {{> templates/seed-bundles}}
+    {{> seo-templates/default-initial-contents }}
+    {{> seo-templates/seed-bundles}}
 
-{{> templates/close-document}}
+{{> seo-templates/close-document}}
